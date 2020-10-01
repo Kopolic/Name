@@ -6,6 +6,9 @@ public abstract class Shape {
     private int y;
 
     public Shape (String color, int x, int y){
+        this.color = color;
+        this.x = x;
+        this.y = y;
 
     }
     public int getX(){
